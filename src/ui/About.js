@@ -1,4 +1,5 @@
 import React from "react";
+import Form from 'react-bootstrap/Form';
 import AOS from "aos";
 import "../../node_modules/aos/dist/aos.css";
 import about_img from "../img/about-image.jpg";
@@ -176,11 +177,12 @@ const About = () => {
                        specialization includes Networking, Securities, System
                        Architecture, Data base and Enterprise solutions .
                       </p>
+                      {/* <Form.Control size="lg" type="text" placeholder="Large text" /> */}
                   <div className="social">
-                    <Link to="/">
+                    <Link to="https://www.linkedin.com/company/arivani-technologies-pvt-ltd/mycompany/">
                       <i className="bi bi-twitter"></i>
                     </Link>
-                    <Link to="/">
+                    <Link to="https://www.linkedin.com/company/arivani-technologies-pvt-ltd/mycompany/">
                       {" "}
                       <i className="bi bi-linkedin"></i>{" "}
                     </Link>
@@ -213,10 +215,10 @@ const About = () => {
                     Engineering.
                   </p>
                   <div className="social">
-                    <Link to="/">
+                    <Link to="https://www.linkedin.com/company/arivani-technologies-pvt-ltd/mycompany/">
                       <i className="bi bi-twitter"></i>
                     </Link>
-                    <Link to="https://www.linkedin.com/in/sohit-vishwakarma/">
+                    <Link to="https://www.linkedin.com/company/arivani-technologies-pvt-ltd/mycompany/">
                       {" "}
                       <i className="bi bi-linkedin" target="_blank"></i>{" "}
                     </Link>

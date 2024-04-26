@@ -215,16 +215,14 @@ const StyledCard = styled(Card)`
     display: block;
     font-style: italic;
     font-size: 0.8em;
+   
   }
 
   .italic-font {
     font-style: italic;
   }
 `;
-/*
 
-
- */
 
 const StyledBadge = styled(Badge)`
   cursor: pointer;

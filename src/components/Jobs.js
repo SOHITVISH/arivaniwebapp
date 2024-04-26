@@ -177,10 +177,10 @@ const About = () => {
                        Architecture, Data base and Enterprise solutions .
                       </p>
                   <div className="social">
-                    <Link to="/">
+                    <Link to=""https://www.linkedin.com/company/arivani-technologies-pvt-ltd/mycompany/"">
                       <i className="bi bi-twitter"></i>
                     </Link>
-                    <Link to="/">
+                    <Link to=""https://www.linkedin.com/company/arivani-technologies-pvt-ltd/mycompany/"">
                       {" "}
                       <i className="bi bi-linkedin"></i>{" "}
                     </Link>
@@ -216,7 +216,7 @@ const About = () => {
                     <Link to="/">
                       <i className="bi bi-twitter"></i>
                     </Link>
-                    <Link to="https://www.linkedin.com/in/sohit-vishwakarma/">
+                    <Link to=""https://www.linkedin.com/company/arivani-technologies-pvt-ltd/mycompany/"">
                       {" "}
                       <i className="bi bi-linkedin" target="_blank"></i>{" "}
                     </Link>
