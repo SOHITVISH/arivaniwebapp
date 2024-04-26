@@ -26,18 +26,11 @@ const ServiceList = () => {
                 <div>
                   <h4 className="title">
                     <Link to="/ervices" className="stretched-link">
-                      Educational Content{" "}
+                      Choose A Service{" "}
                     </Link>
                   </h4>
                   <p className="description">
-                  Web development includes building, creating, and maintaining websites including all the aspects.
-
-Hosting & Cloud Services
-Connected virtual and physical cloud servers make applications or websites flexible and scalable.
-
-
-Internet of Things (IOT)
-Securely manage collecting and analyzing device data to drive greater business value.
+                  Select from services, suiting best to your business requirements.
                   </p>
                   <Link to="/services" className="btn-get-started">
                     Read More
