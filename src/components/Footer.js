@@ -7,7 +7,7 @@ import { HashLink } from "react-router-hash-link";
 const Footer = () => {
   return (
     <>
-      <footer id="footer" className="footer">
+      <footer id="footer" className="footer" style={{ backgroundColor: "#e7e7e7" }}>
         <div className="footer-content">
           <div className="container">
             <div className="row gy-4">
@@ -85,11 +85,11 @@ const Footer = () => {
           </div>
         </div>
         {/* Footer legal information */}
-        <div className="footer-legal">
+        <div className="footer-legal" style={{ color: "white"}}>
           <div className="container">
-            <div className="copyright">
+            <div className="copyright" >
               {/* Copyright notice with dynamic year */}
-              <span id="copyright">
+              <span id="copyright" style={{color:"white"}}>
                 <script>
                   document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
                 </script>

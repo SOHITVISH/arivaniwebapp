@@ -29,8 +29,10 @@ const ServiceList = () => {
                       Choose A Service{" "}
                     </Link>
                   </h4>
-                  <p className="description">
+                  <p className="description" >
                   Select from services, suiting best to your business requirements.
+                   from services,   to your  requirements.
+                   from , suiting best to your  requirements.
                   </p>
                   <Link to="/services" className="btn-get-started">
                     Read More
